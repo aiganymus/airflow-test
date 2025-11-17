@@ -206,6 +206,75 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-./airflow/simple_auth_manager_passwords.json.generated
-./airflow/dags/*/*.csv
-./airflow/dags/*/*.db
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.env
+.venv
+venv/
+env/
+
+# ---------------------------
+# Airflow directories/files
+# ---------------------------
+
+# Airflow metadata database
+airflow.db
+airflow.db-journal
+*.db
+*.db-journal
+
+# Airflow logs (VERY large)
+logs/
+**/logs/
+
+# PID files
+*.pid
+**/*.pid
+
+# Airflow config auto-generated
+airflow.cfg
+webserver_config.py
+
+# Airflow temp files
+airflow-webserver.pid
+airflow-scheduler.pid
+airflow-worker.pid
+airflow-monitor.pid
+airflow-local-settings.*
+
+# ---------------------------
+# SQLite databases (if used in demo)
+# ---------------------------
+demo.db
+*.sqlite
+*.sqlite3
+
+# ---------------------------
+# Output files from DAGs
+# ---------------------------
+merged_output.csv
+*.csv
+*.parquet
+*.json
+
+# ---------------------------
+# VS Code / Editor
+# ---------------------------
+.vscode/
+.idea/
+*.swp
+
+# ---------------------------
+# OS files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+airflow/simple_auth_manager_passwords.json.generated
