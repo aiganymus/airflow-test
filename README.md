@@ -13,8 +13,8 @@ https://education.github.com/pack
 
 ## 2. Prepare Your Repository
 
-1. Create a new empty GitHub repository or fork this project.  
-2. Add a `.gitignore` suitable for Airflow projects. You can use the one in this project. 
+1. Install Git on your local machine https://git-scm.com/install/
+2. Create a new empty GitHub repository and upload this folder.  
 
 ---
 
