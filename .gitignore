@@ -278,3 +278,5 @@ merged_output.csv
 Thumbs.db
 
 airflow/simple_auth_manager_passwords.json.generated
+
+kafka*/
